@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.vickmedia.venturingapp" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>The Venturing App</name>
+    <description>
+        The FIRST Venturing-specific app on the App Store!
+    </description>
+    <author email="nathan@vick.media" href="http://vick.media">
+        Nathan Vick
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
