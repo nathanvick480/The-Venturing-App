@@ -2,24 +2,12 @@
 <html>
 <head>
 	<title>Venturing Requirements</title>
-    <link href="files/customfont.css" rel="stylesheet">
-    <style>
-        li { white-space: normal !important; line-height: 140%; font-family: 'Roboto', Helvetica, sans-serif; }
-        li a { text-shadow: 0 1px 0 #FDD259 !important; }
-        p { text-shadow: none; }
-        * { font-family: 'Roboto', Helvetica, sans-serif; }
-        /* .ui-header .ui-title { overflow: visible; } */
-        .list-top { padding-left: 34px !important; text-indent: -18px !important; }
-        .list-sub1 { padding-left: 50px !important; text-indent: -34px !important; }
-        .nestedlist > li { padding-left: 5px !important; text-indent: 0px !important; }
-        .header-div h1 { overflow: visible !important; }
-        .subheading { background-color: #D9D9D9 !important; font-weight: normal !important; font-size: 14px !important; }
-    </style>
+    <link href="files/custom.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon" href="appletouchicon.png">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="apple-touch-icon" href="appletouchicon.png">    
 
     <link rel="stylesheet" href="files/venturing.min.css" />
     <link rel="stylesheet" href="files/jquery.mobile.icons.min.css" />
@@ -30,7 +18,11 @@
         FastClick.attach(document.body);
     }, false);</script>
     <script src="files/jquery.mobile-1.4.5.min.js"></script>
-    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
     <style>
         a.ui-btn.header-button { margin-top: 18px; }
         .header-div { padding-top: 18px; }
@@ -178,7 +170,7 @@
 	<h1>Summit</h1>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="/images/summitaward.png" width="150" alt="Summit Award" /></p>
+	<p align="center"><img src="summitaward.png" width="150" alt="Summit Award" /></p>
 	<ul data-role="listview" data-inset="true">
 		<li data-role="list-divider">Adventure</li>
 			<li class="list-top">1. Participate in at least three additional (for a total of seven) Tier II or III adventures at the crew, district, council, area, regional, or national level. To earn the Summit Award, a Venturer must have participated in at least one Tier III adventure and served as a leader during one adventure.</li>

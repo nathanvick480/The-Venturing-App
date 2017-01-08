@@ -8,5 +8,8 @@
         Nathan Vick
     </author>
     <content src="index.html" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <access origin="*" />
 </widget>
