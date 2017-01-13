@@ -33,9 +33,9 @@
         
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#006B3F" />
-        <preference name="StatusBarStyle" value="blacktranslucent" />
+        <preference name="StatusBarStyle" value="lightcontent" />
         
-        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="AutoHideSplashScreen" value="false" />
         <preference name="ShowSplashScreenSpinner" value="false" />
         <preference name="SplashScreenDelay" value="2000" />
 		<preference name="FadeSplashScreen" value="true" />
