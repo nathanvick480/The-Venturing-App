@@ -32,7 +32,6 @@
 		<preference name="LoadingDialog" value="," />
 		<preference name="LoadUrlTimeoutValue" value="null" />
         
-        <preference name="ios-statusbarstyle" value="default" />
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#006B3F" />
         <preference name="StatusBarStyle" value="blackopaque" />
