@@ -4,8 +4,8 @@
     <description>
         The FIRST Venturing-specific app on the App Store!
     </description>
-    <author email="nathan@vick.media" href="http://vick.media">
-        Nathan Vick
+    <author email="nathan@venturingapp.com" href="http://www.venturingapp.com">
+        Vick Media
     </author>
     <content src="index.html" />
     <preference name="StatusBarOverlaysWebView" value="true" />
