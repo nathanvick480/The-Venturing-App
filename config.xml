@@ -40,7 +40,7 @@
         
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#006B3F" />
-        <preference name="StatusBarStyle" value="darkcontent" />
+        <preference name="StatusBarStyle" value="blackopaque" />
 		
         <icon src="icon.png" />
         <splash src="splash.png" />
