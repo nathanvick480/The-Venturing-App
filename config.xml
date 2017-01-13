@@ -8,6 +8,7 @@
 		<description>Ever wanted to be able to easily view the Venturing award requirements on your phone without having to pull up your web browser?  The FIRST Venturing-specific app on the App Store makes that possible!</description>
 		<author href="http://www.venturingapp.com" email="nathan@venturingapp.com">Nathan Vick</author>
 		<plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
+        <plugin name="cordova-plugin-splashscreen" source="npm" spec="~4.0.1" />
 		<preference name="orientation" value="default" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
