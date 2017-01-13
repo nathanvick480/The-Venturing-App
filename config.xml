@@ -7,8 +7,7 @@
 		<name>Venturing</name>
 		<description>Ever wanted to be able to easily view the Venturing award requirements on your phone without having to pull up your web browser?  The FIRST Venturing-specific app on the App Store makes that possible!</description>
 		<author href="http://www.venturingapp.com" email="nathan@venturingapp.com">Nathan Vick</author>
-		<feature name="http://api.phonegap.com/1.0/statusbar" />
-		<preference name="phonegap-version" value="cli-6.3.0" />
+		<plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
 		<preference name="orientation" value="default" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
@@ -34,7 +33,7 @@
         
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#006B3F" />
-        <preference name="StatusBarStyle" value="blackopaque" />
+        <preference name="StatusBarStyle" value="blacktranslucent" />
         
         <preference name="AutoHideSplashScreen" value="true" />
         <preference name="ShowSplashScreenSpinner" value="false" />
