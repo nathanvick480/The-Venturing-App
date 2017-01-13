@@ -37,8 +37,7 @@
         <preference name="StatusBarStyle" value="blackopaque" />
         
         <preference name="show-splash-screen-spinner" value="true" />
-		<preference name="auto-hide-splash-screen" value="true" />
-		<preference name="FadeSplashScreen " value="true" />
+		<preference name="FadeSplashScreen" value="true" />
         <preference name="FadeSplashScreenDuration" value="2.0" />
         <preference name="SplashScreenDelay" value="2000" />
 		
