@@ -37,9 +37,9 @@
         <preference name="StatusBarStyle" value="lightcontent" />
         
         <preference name="FadeSplashScreen" value="false" />
-        <preference name="AutoHideSplashScreen" value="false" />
+        <preference name="AutoHideSplashScreen" value="true" />
         <preference name="ShowSplashScreenSpinner" value="false" />
-        <preference name="SplashScreenDelay" value="3.0" />
+        <preference name="SplashScreenDelay" value="3000" />
 		
         <icon src="icon.png" />
         <splash src="splash.png" />
