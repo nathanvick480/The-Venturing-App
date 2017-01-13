@@ -40,7 +40,7 @@
         
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#006B3F" />
-        <preference name="StatusBarStyle" value="lightcontent" />
+        <preference name="StatusBarStyle" value="darkcontent" />
 		
         <icon src="icon.png" />
         <splash src="splash.png" />
@@ -68,23 +68,23 @@
             <icon src="resources/icon-40@3x.png" platform="ios" width="120" height="120" />
             
             <!-- Splash iPhone and iPod touch -->
-            <splash src="Default.png" platform="ios" width="320" height="480" />
-            <splash src="Default@2x.png" platform="ios" width="640" height="960" />
+            <splash src="resources/Default.png" platform="ios" width="320" height="480" />
+            <splash src="resources/Default@2x.png" platform="ios" width="640" height="960" />
 
             <!-- Splash iPhone 5 / iPod Touch (5th Generation) -->
-            <splash src="Default-568h@2x.png" platform="ios" width="640" height="1136" />
+            <splash src="resources/Default-568h@2x.png" platform="ios" width="640" height="1136" />
 
             <!-- Splash iPhone 6 -->
-            <splash src="Default-667h@2x.png" platform="ios" width="750" height="1334" />
-            <splash src="Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />
-            <splash src="Default-Landscape-736h@3x.png" platform="ios" width="2208" height="1242" />
+            <splash src="resources/Default-667h@2x.png" platform="ios" width="750" height="1334" />
+            <splash src="resources/Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />
+            <splash src="resources/Default-Landscape-736h@3x.png" platform="ios" width="2208" height="1242" />
 
             <!-- Splash iPad -->
-            <splash src="Default-Portrait.png" platform="ios" width="768" height="1024" />
-            <splash src="Default-Landscape.png" platform="ios" width="1024" height="768" />
+            <splash src="resources/Default-Portrait.png" platform="ios" width="768" height="1024" />
+            <splash src="resources/Default-Landscape.png" platform="ios" width="1024" height="768" />
 
             <!-- Splash Retina iPad -->
-            <splash src="Default-Portrait@2x.png" platform="ios" width="1536" height="2048" />
-            <splash src="Default-Landscape@2x.png" platform="ios" width="2048" height="1536" />
+            <splash src="resources/Default-Portrait@2x.png" platform="ios" width="1536" height="2048" />
+            <splash src="resources/Default-Landscape@2x.png" platform="ios" width="2048" height="1536" />
 		</platform>
     </widget>
