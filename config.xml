@@ -39,10 +39,10 @@
         <preference name="TopActivityIndicator" value="white" />
         
         <preference name="FadeSplashScreen" value="true" />
-        <preference name="FadeSplashScreenDuration" value="250"/>
+        <preference name="FadeSplashScreenDuration" value="300"/>
         <preference name="AutoHideSplashScreen" value="true" />
         <preference name="ShowSplashScreenSpinner" value="false" />
-        <preference name="SplashScreenDelay" value="500" />
+        <preference name="SplashScreenDelay" value="550" />
 		
         <icon src="icon.png" />
         <splash src="splash.png" />
