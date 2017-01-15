@@ -28,6 +28,6 @@ p { text-shadow: none; }
 }
 
  .ui-content {
+     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
 }
