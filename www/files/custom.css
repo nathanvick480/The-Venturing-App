@@ -18,3 +18,16 @@ p { text-shadow: none; }
 .app-link {
     -webkit-touch-callout: none;
 }
+
+.transition {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+ .ui-content {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
