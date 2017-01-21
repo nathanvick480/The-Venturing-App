@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id = "com.vickmedia.venturingapp"
 		versionCode=""
-		version = "1.0.0">
+		version = "1.0.1">
 		<name>Venturing</name>
 		<description>Ever wanted to be able to easily view the Venturing award requirements on your phone without having to pull up your web browser?  The FIRST Venturing-specific app on the App Store makes that possible!</description>
 		<author href="http://www.venturingapp.com" email="nathan@venturingapp.com">Nathan Vick</author>
