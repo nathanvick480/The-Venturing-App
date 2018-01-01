@@ -23,10 +23,6 @@
     <script type="text/javascript">
         app.initialize();
     </script>
-    <style>
-        a.ui-btn.header-button { margin-top: 18px; }
-        .header-div { padding-top: 18px; }
-    </style>
 </head>
 <body>
 
@@ -35,19 +31,19 @@
 <div data-role="page" id="home" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
 	<h1>The Venturing App</h1>
-	<a href="#about" data-transition="flip" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-corner-all ui-icon-delete ui-icon-gear ui-btn-icon-notext header-button">About</a>
+	<a href="#about" data-transition="flip" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-corner-all ui-icon-delete ui-icon-gear ui-btn-icon-notext header-button app-link transition">About</a>
 </div>
 <div role="main" class="ui-content">
 	<ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
         <li data-role="list-divider">ALPS Core Awards</li>
-		<li><a href="#venturingaward" data-transition="slide">Venturing Award</a></li>
-		<li><a href="#discoveryaward" data-transition="slide">Discovery Award</a></li>
-		<li><a href="#pathfinderaward" data-transition="slide">Pathfinder Award</a></li>
-		<li><a href="#summitaward" data-transition="slide">Summit Award</a></li>
+		<li><a href="#venturingaward" data-transition="slide" class="app-link transition">Venturing Award</a></li>
+		<li><a href="#discoveryaward" data-transition="slide" class="app-link transition">Discovery Award</a></li>
+		<li><a href="#pathfinderaward" data-transition="slide" class="app-link transition">Pathfinder Award</a></li>
+		<li><a href="#summitaward" data-transition="slide" class="app-link transition">Summit Award</a></li>
 		<li data-role="list-divider">Specialty Awards</li>
-		<li><a href="#rangeraward" data-transition="slide">Ranger Award</a></li>
-		<li><a href="#questaward" data-transition="slide">Quest Award</a></li>
-		<li><a href="#trustaward" data-transition="slide">TRUST Award</a></li>
+		<li><a href="#rangeraward" data-transition="slide" class="app-link transition">Ranger Award</a></li>
+		<li><a href="#questaward" data-transition="slide" class="app-link transition">Quest Award</a></li>
+		<li><a href="#trustaward" data-transition="slide" class="app-link transition">TRUST Award</a></li>
 	</ul>
 </div>
 </div>
@@ -57,15 +53,15 @@
 <!-- About Page -->
 <div data-role="page" id="about" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-delete ui-icon-delete ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-delete ui-icon-delete ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>About</h1>
 </div>
 <div role="main" class="ui-content">
-    <p align="center" style="font-style:italic;">An app by Nathan Vick / <a href="http://vick.media" target="_blank" style="color: #006B3F;">Vick Media</a></p>
+    <!--<p align="center" style="font-style:italic;">An app by Nathan Vick / <a href="http://vick.media" target="_blank" style="color: #006B3F;">Vick Media</a></p>-->
     <p>This app is neither published nor endorsed by the Boy Scouts of America.</p>
     <p>Official requirements may be found on the <a href="http://venturing.org" target="_blank" style="color: #006B3F;">National Venturing website</a>. In case of any discrepancy, the requirements from the National Venturing website shall prevail.</p>
     <p>Some requirement data via <a href="http://meritbadge.org/" target="_blank" style="color: #006B3F;">MeritBadge.org</a>.</p>
-    <p>If you notice a bug, please <a href="mailto:venturing@vick.media" style="color:#006B3F;">let us know</a>! While this app does not come with any guarantees of accuracy or function, we'll do our best to fix any problems.</p>
+    <p>If you notice a bug, please <a href="http://www.venturingapp.com/#contact-us" style="color:#006B3F;" target="_blank">let us know</a>! While this app does not come with any guarantees of accuracy or function, we'll do our best to fix any problems.</p>
 </div>
 </div>
 
@@ -74,11 +70,11 @@
 <!-- Venturing Award Requirements -->
 <div data-role="page" id="venturingaward" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
 	<h1>Venturing Award</h1>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="venturingaward.png" width="150" alt="Venturing Award" /></p>
+	<!--<p align="center"><img src="venturingaward.png" width="150" alt="Venturing Award" /></p>-->
 	<ul data-role="listview" data-inset="true">
 		<li class="list-top">1. Participate in a crew activity outside of a crew meeting.</li>
 		<li class="list-top">2. Participate in an interview conducted by your crew president and your advisor.</li>
@@ -93,11 +89,11 @@
 <!-- Discovery Award Requirements -->
 <div data-role="page" id="discoveryaward" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
 	<h1>Discovery</h1>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="discoveryaward.png" width="150" alt="Discovery Award" /></p>
+	<!--<p align="center"><img src="discoveryaward.png" width="150" alt="Discovery Award" /></p>-->
 	<ul data-role="listview" data-inset="true">
 		<li data-role="list-divider">Adventure</li>
 			<li class="list-top">1. Participate in at least two Tier II or III adventures at the crew, district, council, area, regional, or national level.</li>
@@ -128,11 +124,11 @@
 <!-- Pathfinder Award Requirements -->
 <div data-role="page" id="pathfinderaward" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
 	<h1>Pathfinder</h1>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="pathfinderaward.png" width="150" alt="Pathfinder Award" /></p>
+	<!--<p align="center"><img src="pathfinderaward.png" width="150" alt="Pathfinder Award" /></p>-->
 	<ul data-role="listview" data-inset="true">
 		<li data-role="list-divider">Adventure</li>
 			<li class="list-top">1. Participate in at least two additional (for a total of at least four) Tier II or III adventures at the crew, district, council, area, regional, or national level. Serve as a leader for one of the adventures.</li>
@@ -166,11 +162,11 @@
 <!-- Summit Award Requirements -->
 <div data-role="page" id="summitaward" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+	<a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
 	<h1>Summit</h1>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="summitaward.png" width="150" alt="Summit Award" /></p>
+	<!--<p align="center"><img src="summitaward.png" width="150" alt="Summit Award" /></p>-->
 	<ul data-role="listview" data-inset="true">
 		<li data-role="list-divider">Adventure</li>
 			<li class="list-top">1. Participate in at least three additional (for a total of seven) Tier II or III adventures at the crew, district, council, area, regional, or national level. To earn the Summit Award, a Venturer must have participated in at least one Tier III adventure and served as a leader during one adventure.</li>
@@ -203,34 +199,34 @@
 <!-- Ranger Award -->
 <div data-role="page" id="rangeraward" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>Ranger Award</h1>
-    <a href="#rangerpopup" data-rel="popup" data-transition="pop" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-info ui-btn-icon-notext header-button">Handbook</a>
+    <a href="#rangerpopup" data-rel="popup" data-transition="pop" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-info ui-btn-icon-notext header-button app-link transition">Handbook</a>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="rangeraward.png" width="100" alt="Ranger Award" /></p>
+	<!--<p align="center"><img src="rangeraward.png" width="100" alt="Ranger Award" /></p>-->
 	<ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
         <li data-role="list-divider">Core (complete all)</li>
-		<li><a href="#ranger-core" data-transition="slide">1-8. Core Requirements</a></li>
+		<li><a href="#ranger-core" data-transition="slide" class="app-link transition">1-8. Core Requirements</a></li>
 		<li data-role="list-divider">Electives (complete any four)</li>
-		<li><a href="#ranger-backpacking" data-transition="slide">9. Backpacking</a></li>
-		<li><a href="#ranger-caving" data-transition="slide">10. Cave Exploration</a></li>
-		<li><a href="#ranger-cycling" data-transition="slide">11. Cycling/Mountain Biking</a></li>
-        <li><a href="#ranger-ecology" data-transition="slide">12. Ecology</a></li>
-        <li><a href="#ranger-equestrian" data-transition="slide">13. Equestrian</a></li>
-        <li><a href="#ranger-firstaid" data-transition="slide">14. First Aid</a></li>
-        <li><a href="#ranger-fishing" data-transition="slide">15. Fishing</a></li>
-        <li><a href="#ranger-hunting" data-transition="slide">16. Hunting</a></li>
-        <li><a href="#ranger-lifesaving" data-transition="slide">17. Lifesaving</a></li>
-        <li><a href="#ranger-mountaineering" data-transition="slide">18. Mountaineering</a></li>
-        <li><a href="#ranger-outdoorhistory" data-transition="slide">19. Outdoor Living History</a></li>
-        <li><a href="#ranger-physicalfitness" data-transition="slide">20. Physical Fitness</a></li>
-        <li><a href="#ranger-plants" data-transition="slide">21. Plants and Wildlife</a></li>
-        <li><a href="#ranger-projectcope" data-transition="slide">22. Project COPE</a></li>
-        <li><a href="#ranger-scuba" data-transition="slide">23. Scuba Certification</a></li>
-        <li><a href="#ranger-shootingsports" data-transition="slide">24. Shooting Sports</a></li>
-        <li><a href="#ranger-watercraft" data-transition="slide">25. Watercraft</a></li>
-        <li><a href="#ranger-wintersports" data-transition="slide">26. Winter Sports</a></li>
+		<li><a href="#ranger-backpacking" data-transition="slide" class="app-link transition">9. Backpacking</a></li>
+		<li><a href="#ranger-caving" data-transition="slide" class="app-link transition">10. Cave Exploration</a></li>
+		<li><a href="#ranger-cycling" data-transition="slide" class="app-link transition">11. Cycling/Mountain Biking</a></li>
+        <li><a href="#ranger-ecology" data-transition="slide" class="app-link transition">12. Ecology</a></li>
+        <li><a href="#ranger-equestrian" data-transition="slide" class="app-link transition">13. Equestrian</a></li>
+        <li><a href="#ranger-firstaid" data-transition="slide" class="app-link transition">14. First Aid</a></li>
+        <li><a href="#ranger-fishing" data-transition="slide" class="app-link transition">15. Fishing</a></li>
+        <li><a href="#ranger-hunting" data-transition="slide" class="app-link transition">16. Hunting</a></li>
+        <li><a href="#ranger-lifesaving" data-transition="slide" class="app-link transition">17. Lifesaving</a></li>
+        <li><a href="#ranger-mountaineering" data-transition="slide" class="app-link transition">18. Mountaineering</a></li>
+        <li><a href="#ranger-outdoorhistory" data-transition="slide" class="app-link transition">19. Outdoor Living History</a></li>
+        <li><a href="#ranger-physicalfitness" data-transition="slide" class="app-link transition">20. Physical Fitness</a></li>
+        <li><a href="#ranger-plants" data-transition="slide" class="app-link transition">21. Plants and Wildlife</a></li>
+        <li><a href="#ranger-projectcope" data-transition="slide" class="app-link transition">22. Project COPE</a></li>
+        <li><a href="#ranger-scuba" data-transition="slide" class="app-link transition">23. Scuba Certification</a></li>
+        <li><a href="#ranger-shootingsports" data-transition="slide" class="app-link transition">24. Shooting Sports</a></li>
+        <li><a href="#ranger-watercraft" data-transition="slide" class="app-link transition">25. Watercraft</a></li>
+        <li><a href="#ranger-wintersports" data-transition="slide" class="app-link transition">26. Winter Sports</a></li>
 	</ul>
 </div>
     <div data-role="popup" id="rangerpopup">
@@ -243,7 +239,7 @@
 <!-- Ranger Core -->
 <div data-role="page" id="ranger-core" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>Ranger Core</h1>
 </div>
 <div role="main" class="ui-content">
@@ -392,7 +388,7 @@
 <!-- Ranger Backpacking -->
 <div data-role="page" id="ranger-backpacking" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>9. Backpacking</h1>
 </div>
 <div role="main" class="ui-content">
@@ -431,7 +427,7 @@
         <li class="list-top">f. Three treks.
             <ol type="i" class="nestedlist">
                 <li>Participate in three different treks of at least three days and two nights each, covering at least 15 miles in distance each.</li>
-                <li>Plan and lead a backpacking trek (can be one of the treks in (i) above) with at least five people for at least two days. This group can be your crew, another crew, a Boy Scout unit, or another youth group.</li>
+                <li>Plan and lead a backpacking trek (can be one of the treks in (i) above) with at least five people for at least two days. This group can be your crew, another crew, a Boy Scout troop, or another youth group.</li>
                 <li>Plan the menu for this trek using commercially prepared backpacking foods for at least one meal.</li>
                 <li>Check for any permits needed and prepare a trip plan to be left with your family. Have an emergency contact number.</li>
                 <li>Using the map you used to chart your course, brief the crew you are leading on your trip plan.</li>
@@ -461,7 +457,7 @@
 <!-- Ranger Caving -->
 <div data-role="page" id="ranger-caving" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>10. Caving</h1>
 </div>
 <div role="main" class="ui-content">
@@ -539,7 +535,7 @@
 <!-- Ranger Cycling and Mountain Biking -->
 <div data-role="page" id="ranger-cycling" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>11. Cycling</h1>
 </div>
 <div role="main" class="ui-content">
@@ -600,7 +596,7 @@
 <!-- Ranger Ecology -->
 <div data-role="page" id="ranger-ecology" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>12. Ecology</h1>
 </div>
 <div role="main" class="ui-content">
@@ -623,7 +619,7 @@
 <!-- Ranger Equestrian -->
 <div data-role="page" id="ranger-equestrian" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>13. Equestrian</h1>
 </div>
 <div role="main" class="ui-content">
@@ -673,7 +669,7 @@
 <!-- Ranger First Aid -->
 <div data-role="page" id="ranger-firstaid" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>14. First Aid</h1>
 </div>
 <div role="main" class="ui-content">
@@ -698,7 +694,7 @@
 <!-- Ranger Fishing -->
 <div data-role="page" id="ranger-fishing" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>15. Fishing</h1>
 </div>
 <div role="main" class="ui-content">
@@ -835,7 +831,7 @@
 <!-- Ranger Hunting -->
 <div data-role="page" id="ranger-hunting" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>16. Hunting</h1>
 </div>
 <div role="main" class="ui-content">
@@ -872,7 +868,7 @@
 <!-- Ranger Lifesaving -->
 <div data-role="page" id="ranger-lifesaving" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>17. Lifesaving</h1>
 </div>
 <div role="main" class="ui-content">
@@ -900,7 +896,7 @@
 <!-- Ranger Mountaineering -->
 <div data-role="page" id="ranger-mountaineering" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>18. Mountaineering</h1>
 </div>
 <div role="main" class="ui-content">
@@ -976,7 +972,7 @@
 <!-- Ranger Outdoor Living History -->
 <div data-role="page" id="ranger-outdoorhistory" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>19. Outdoor History</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1002,7 +998,7 @@
 <!-- Ranger Physical Fitness -->
 <div data-role="page" id="ranger-physicalfitness" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>20. Physical Fitness</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1032,7 +1028,7 @@
 <!-- Ranger Plants and Wildlife -->
 <div data-role="page" id="ranger-plants" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>21. Plants &amp; Wildlife</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1066,7 +1062,7 @@
 <!-- Ranger Project COPE -->
 <div data-role="page" id="ranger-projectcope" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>22. Project COPE</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1089,7 +1085,7 @@
 <!-- Ranger Scuba Certification -->
 <div data-role="page" id="ranger-scuba" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>23. Scuba</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1106,7 +1102,7 @@
 <!-- Ranger Shooting Sports -->
 <div data-role="page" id="ranger-shootingsports" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>24. Shooting Sports</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1176,7 +1172,7 @@
                     <ul style="list-style: none;" class="nestedlist">
                         <li>Sporter Course: Using six A17 targets, shoot one shot at each record bull from a distance of 50 feet for a total of 60 shots. Of the 60 shots, you must shoot 20 shots in each position-prone, standing (off-hand), and kneeling. You "must score 225 of a possible 600. (you may use any .22 rifle with a maximum retail value of $235.)</li>
                         <li>OR</li>
-                        <li>Precision Course: Using six A17 targets, shoot one shot at each record bull from a distance of 50 feet for a total of 60 shots. Of the 60 shots, shoot 20 shots in each position-prone, standing (offhand), and kneeling. You must score 420 of a possible 600. (You may use any.22 rifle.)</li>
+                        <li>Precision Course: Using six A17 targets, shoot one shot at each record bull from a distance of 50 feet for a total of 60 shots. Of the 60 shots, shoot 20 shots in each position-prone, standing (offhand), and kneeling. You must score 420 of a possible 600. (You may use any .22 rifle.)</li>
                     </ul>
                 </li>
             </ol>
@@ -1190,7 +1186,7 @@
 <!-- Ranger Watercraft -->
 <div data-role="page" id="ranger-watercraft" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>25. Watercraft</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1230,6 +1226,8 @@
                     </ul>
                 </li>
                 <li>Using an appropriate canoe, kayak, or raft, paddle a slow river, lake, or coastal waterway, a distance of at least eight miles, or run a whitewater river, a distance of six miles with at least one class II rapid. If using a paddle raft, be the paddle captain.</li>
+            </ol>
+        </li>
         <li class="list-top">f. Boardsailing
             <ol type="i" class="nestedlist">
                 <li>Learn and demonstrate the BSA rules for boardsailing.</li>
@@ -1246,7 +1244,7 @@
 <!-- Ranger Winter Sports -->
 <div data-role="page" id="ranger-wintersports" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#rangeraward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>26. Winter Sports</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1300,21 +1298,21 @@
 <!-- Quest Award -->
 <div data-role="page" id="questaward" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>Quest Award</h1>
-    <a href="#questpopup" data-rel="popup" data-transition="pop" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-info ui-btn-icon-notext header-button">Handbook</a>
+    <a href="#questpopup" data-rel="popup" data-transition="pop" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-info ui-btn-icon-notext header-button app-link transition">Handbook</a>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="questaward.png" width="100" alt="Quest Award" /></p>
+	<!--<p align="center"><img src="questaward.png" width="100" alt="Quest Award" /></p>-->
 	<ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
         <li data-role="list-divider">Core (complete all)</li>
-		<li><a href="#quest-core" data-transition="slide">1-5. Core Requirements</a></li>
+		<li><a href="#quest-core" data-transition="slide" class="app-link transition">1-5. Core Requirements</a></li>
 		<li data-role="list-divider">Electives (complete one)</li>
-		<li><a href="#quest-historysports" data-transition="slide" style="white-space:normal;">6. History and Heritage of Sports</a></li>
-		<li><a href="#quest-nutrition" data-transition="slide">7. Sports Nutrition</a></li>
-        <li><a href="#quest-drugfree" data-transition="slide">8. Drug-Free Sports</a></li>
-        <li><a href="#quest-communications" data-transition="slide">9. Communications</a></li>
-        <li><a href="#quest-historydisabledsports" data-transition="slide" style="white-space:normal;">10. History and Heritage of the Disabled Sports Movement</a></li>
+		<li><a href="#quest-historysports" data-transition="slide" class="app-link transition" style="white-space:normal;">6. History and Heritage of Sports</a></li>
+		<li><a href="#quest-nutrition" data-transition="slide" class="app-link transition">7. Sports Nutrition</a></li>
+        <li><a href="#quest-drugfree" data-transition="slide" class="app-link transition">8. Drug-Free Sports</a></li>
+        <li><a href="#quest-communications" data-transition="slide" class="app-link transition">9. Communications</a></li>
+        <li><a href="#quest-historydisabledsports" data-transition="slide" class="app-link transition" style="white-space:normal;">10. History and Heritage of the Disabled Sports Movement</a></li>
 	</ul>
 </div>
     <div data-role="popup" id="questpopup">
@@ -1327,7 +1325,7 @@
 <!-- Quest Core  -->
 <div data-role="page" id="quest-core" data-theme="d">
 <div data-role="header" data-position="fixed" class="header-div" data-tap-toggle="false">
-    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>Quest Core</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1439,7 +1437,7 @@
 <!-- Quest History and Heritage of Sports -->
 <div data-role="page" id="quest-historysports" data-theme="d">
 <div data-role="header" data-position="fixed" class="header-div" data-tap-toggle="false">
-    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>6. History of Sports</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1456,7 +1454,7 @@
 <!-- Quest Sports Nutrition -->
 <div data-role="page" id="quest-nutrition" data-theme="d">
 <div data-role="header" data-position="fixed" class="header-div" data-tap-toggle="false">
-    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>7. Sports Nutrition</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1475,12 +1473,12 @@
 <!-- Quest Drug-Free Sports -->
 <div data-role="page" id="quest-drugfree" data-theme="d">
 <div data-role="header" data-position="fixed" class="header-div" data-tap-toggle="false">
-    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>8. Drug-Free Sports</h1>
 </div>
 <div role="main" class="ui-content">
-    <p style="text-shadow:none;">Complete requirements (a) or (b) and two additional subcategories, OR complete requirements (c) and (d).</p>
 	<ul data-role="listview" data-inset="true">
+        <li data-role="list-divider" data-theme="f" class="subheading">Complete requirements (a) or (b) and two additional subcategories, OR complete requirements (c) and (d).</li>
         <li class="list-top">a. Research two classes or categories of prohibited substances in Olympic sport, as listed in the Olympic Movement Anti-Doping Code. (This information can be found at http://www.usantidoping.org.) Develop a paper (minimum 1,000 words) or a presentation that thoroughly addresses the following questions:
             <ul class="nestedlist">
                 <li>What legitimate medical purposes is the substance used for?</li>
@@ -1512,12 +1510,12 @@
 <!-- Quest Communications -->
 <div data-role="page" id="quest-communications" data-theme="d">
 <div data-role="header" data-position="fixed" class="header-div" data-tap-toggle="false">
-    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>9. Communications</h1>
 </div>
 <div role="main" class="ui-content">
-    <p style="text-shadow:none;">Complete requirements (a), (b) OR (c), (d), (e), (f), and (g) OR (h).</p>
 	<ul data-role="listview" data-inset="true">
+        <li data-role="list-divider" data-theme="f" class="subheading">Complete requirements (a), (b) OR (c), (d), (e), (f), and (g) OR (h).</li>
         <li class="list-top">a. Take a communications-related training course consisting of at least 15 hours of training and education. This course could be conducted through your local school, community education system, local hospital, college/university, or your own Venturing crew. It could be an official coaching, referee, sport official, and/or athletic trainer program. It could cover such topics as mass communication, sportswriting, technical writing, newspaper editing, film and/or video production, journalism, or coaching. At the conclusion of the training course, review with your Advisor the information and skills taught in this communications course and how they relate to either a particular sports program and/or health and physical fitness in general.</li>
         <li class="list-top">b. Read at least two books approved by your Advisor related to a particular sports program of your choice. Some suggested topics are sports injuries, anti-doping, disabled sports organizations, the U.S. Olympic Committee, the International Olympic Committee, etc. Prepare and submit a written report of not less than 1,000 words on each of these books. The two reports should cover the following items:
             <ul class="nestedlist">
@@ -1562,7 +1560,7 @@
 <!-- Quest History and Heritage of the Disabled Sports Movement -->
 <div data-role="page" id="quest-historydisabledsports" data-theme="d">
 <div data-role="header" data-position="fixed" class="header-div" data-tap-toggle="false">
-    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#questaward" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>10. Disabled Sports</h1>
 </div>
 <div role="main" class="ui-content">
@@ -1600,12 +1598,12 @@
 <!-- TRUST Award -->
 <div data-role="page" id="trustaward" data-theme="d">
 <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-div">
-    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button" data-rel="back">Back</a>
+    <a href="#home" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-left ui-shadow ui-corner-all ui-icon-delete ui-icon-carat-l ui-btn-icon-notext header-button app-link transition" data-rel="back">Back</a>
     <h1>TRUST Award</h1>
-    <a href="#trustpopup" data-rel="popup" data-transition="pop" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-info ui-btn-icon-notext header-button">Handbook</a>
+    <a href="#trustpopup" data-rel="popup" data-transition="pop" class="ui-nodisc-icon ui-alt-icon ui-btn ui-btn-right ui-shadow ui-corner-all ui-icon-info ui-btn-icon-notext header-button app-link transition">Handbook</a>
 </div>
 <div role="main" class="ui-content">
-	<p align="center"><img src="trustaward.png" width="100" alt="Trust Award" /></p>
+	<!--<p align="center"><img src="trustaward.png" width="100" alt="Trust Award" /></p>-->
 	<ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
         <li data-role="list-divider">1. Venturing TRUST essentials.</li>
         <li data-role="list-divider" data-theme="f" class="subheading">Complete nine of the following:</li>
@@ -1664,7 +1662,7 @@
             <ol type="i" class="nestedlist">
                 <li>Take (and successfully pass) a course that includes study of cultural diversity.
                 <li>Research and present your findings about an inter-religious/ intercultural conflict affecting the world in historical or current times. Include how the conflict started and ended (if not an ongoing conflict). Explore both causes and effects of the conflict, including those in the current day. Include general information about all the cultures and religions involved in the conflict.</li>
-                <li>Research a cultural group (other than your own) that has had an impact on the U.S. melting pot. When did they begin to arrive? In what ways have they had an in uence on the United States? On your community? Where have they settled (primarily); why? Report on your findings to your crew or youth group.</li>
+                <li>Research a cultural group (other than your own) that has had an impact on the U.S. melting pot. When did they begin to arrive? In what ways have they had an influence on the United States? On your community? Where have they settled (primarily); why? Report on your findings to your crew or youth group.</li>
                 <li>Meet with your council all-markets executive to learn which all-markets programs are being used in your area and why. Learn about BSA resources designed for speci c cultural groups and how they may differ from the resources you are familiar with.</li>
             </ol>
         </li>

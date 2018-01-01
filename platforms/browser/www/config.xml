@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.vickmedia.venturingapp" version="1.0.0" versionCode="" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.vickmedia.venturingapp" version="1.0.2" versionCode="" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Venturing</name>
     <description>Ever wanted to be able to easily view the Venturing award requirements on your phone without having to pull up your web browser?  The FIRST Venturing-specific app on the App Store makes that possible!</description>
     <author email="nathan@venturingapp.com" href="http://www.venturingapp.com">Nathan Vick</author>
     <icon src="icon.png" />
     <splash src="splash.png" />
-    <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
     <preference name="target-device" value="universal" />
@@ -13,26 +12,28 @@
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
     <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="true" />
     <preference name="EnableViewportScale" value="false" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="BackupWebStorage" value="none" />
-    <preference name="TopActivityIndicator" value="white" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="KeyboardShrinksView " value="true" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="SuppressesIncrementalRendering" value="false" />
     <preference name="ErrorUrl" value="null" />
     <preference name="BackgroundColor" value="0x000000" />
-    <preference name="DisallowOverscroll" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
     <preference name="LoadingDialog" value="," />
     <preference name="LoadUrlTimeoutValue" value="null" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="deployment-target" value="7.0" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#006B3F" />
-    <preference name="StatusBarStyle" value="blackopaque" />
-    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="TopActivityIndicator" value="white" />
     <preference name="FadeSplashScreen" value="true" />
-    <preference name="FadeSplashScreenDuration" value="2.0" />
-    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="FadeSplashScreenDuration" value="250" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashScreenDelay" value="500" />
 </widget>

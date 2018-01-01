@@ -14,3 +14,20 @@ p { text-shadow: none; }
   font-weight: 400;
   src: local('Roboto'), local('Roboto-Regular'), url(/roboto.woff) format('woff');
 }
+
+.app-link {
+    -webkit-touch-callout: none;
+}
+
+.transition {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+ .ui-content {
+     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}

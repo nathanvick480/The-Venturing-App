@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.vickmedia.venturingapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.vickmedia.venturingapp"
         }
     },
     "dependent_plugins": {}
